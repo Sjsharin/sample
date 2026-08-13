@@ -591,3 +591,624 @@ footer{
     margin:15px auto 0;
     border-radius:5px;
 }
+/* =========================================
+   MOBILE OPTIMIZATION
+   Existing CSS above remains unchanged
+   ========================================= */
+
+/* Tablets and smaller devices */
+@media (max-width: 768px){
+
+    /* General */
+    .container{
+        width:92%;
+        max-width:100%;
+    }
+
+    section{
+        padding:55px 0;
+    }
+
+    .section-title{
+        margin-bottom:35px;
+    }
+
+    .section-title h2{
+        font-size:1.8rem;
+        line-height:1.3;
+    }
+
+    /* Header / Navigation */
+    header{
+        padding:15px 0;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+        text-align:center;
+    }
+
+    .logo{
+        font-size:1.4rem;
+    }
+
+    .nav-links{
+        width:100%;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+        gap:12px 20px;
+    }
+
+    .nav-links a{
+        font-size:14px;
+    }
+
+    /* Hero */
+    .hero{
+        height:auto;
+        min-height:80vh;
+        padding:80px 0;
+        background-position:center;
+    }
+
+    .hero-content{
+        max-width:100%;
+        text-align:center;
+    }
+
+    .hero h1{
+        font-size:2.4rem;
+        line-height:1.2;
+        margin-bottom:15px;
+    }
+
+    .hero p{
+        font-size:1rem;
+        line-height:1.6;
+        margin-bottom:22px;
+    }
+
+    .btn{
+        padding:11px 20px;
+        font-size:14px;
+    }
+
+    /* About / Profile */
+    .about-grid{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .lawyer-profile{
+        padding:50px 0;
+    }
+
+    .profile-container{
+        grid-template-columns:1fr;
+        gap:30px;
+        text-align:center;
+    }
+
+    .profile-image{
+        max-width:300px;
+        margin:0 auto;
+    }
+
+    .profile-image img{
+        width:100%;
+        max-width:300px;
+        margin:auto;
+    }
+
+    .profile-content h1{
+        font-size:2.1rem;
+        line-height:1.2;
+    }
+
+    .designation{
+        font-size:1rem;
+    }
+
+    .profile-stats{
+        gap:20px;
+        justify-content:center;
+        flex-wrap:wrap;
+        margin:25px 0;
+    }
+
+    .profile-stats > div{
+        min-width:90px;
+    }
+
+    .profile-stats h3{
+        font-size:1.7rem;
+    }
+
+    .profile-buttons{
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:10px;
+    }
+
+    .profile-buttons .btn,
+    .profile-buttons .btn-outline{
+        padding:11px 18px;
+        font-size:14px;
+    }
+
+    /* Cards */
+    .practice-grid,
+    .testimonial-grid,
+    .card-grid,
+    .logo-grid{
+        grid-template-columns:1fr;
+        gap:18px;
+    }
+
+    .card,
+    .testimonial-card,
+    .logo-box{
+        padding:22px;
+    }
+
+    .card h3{
+        font-size:1.2rem;
+    }
+
+    /* Stats */
+    .stats{
+        padding:50px 0;
+    }
+
+    .stats-grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:25px 15px;
+    }
+
+    .stat h3{
+        font-size:2rem;
+    }
+
+    .stat p{
+        font-size:14px;
+    }
+
+    /* Timeline */
+    .timeline-item{
+        padding-left:15px;
+        margin:18px 0;
+    }
+
+    /* Testimonials */
+    .stars{
+        font-size:18px;
+    }
+
+    /* FAQ */
+    details{
+        padding:13px;
+        font-size:14px;
+    }
+
+    /* Appointment / Consultation */
+    .appointment{
+        padding:55px 0;
+    }
+
+    .consultation-wrapper{
+        grid-template-columns:1fr;
+        gap:25px;
+    }
+
+    .consultation-info{
+        padding:25px;
+        border-radius:12px;
+    }
+
+    .consultation-info h3{
+        font-size:1.4rem;
+    }
+
+    .consultation-info li{
+        font-size:14px;
+        margin-bottom:10px;
+    }
+
+    .consultation-form{
+        padding:25px 20px;
+        border-radius:12px;
+    }
+
+    .consultation-form input,
+    .consultation-form select,
+    .consultation-form textarea{
+        padding:13px;
+        font-size:14px;
+    }
+
+    input,
+    textarea{
+        font-size:14px;
+    }
+
+    textarea{
+        min-height:120px;
+        resize:vertical;
+    }
+
+    .appointment input{
+        padding:13px;
+    }
+
+    /* Emergency Section */
+    .emergency{
+        padding:45px 20px;
+    }
+
+    .emergency h2{
+        font-size:1.7rem;
+        line-height:1.3;
+    }
+
+    .emergency p{
+        font-size:14px;
+    }
+
+    /* WhatsApp Button */
+    .whatsapp-btn{
+        right:15px;
+        bottom:15px;
+        padding:12px 16px;
+        font-size:14px;
+    }
+
+    /* Footer */
+    .footer{
+        padding:45px 0 20px;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+        gap:30px;
+        text-align:center;
+    }
+
+    .footer-column h3{
+        margin-bottom:12px;
+        font-size:1.1rem;
+    }
+
+    .footer-column ul li{
+        margin-bottom:8px;
+        font-size:14px;
+    }
+
+    .footer-bottom{
+        font-size:13px;
+    }
+
+    .footer hr{
+        margin:25px 0;
+    }
+}
+
+
+/* =========================================
+   SMALL PHONES
+   ========================================= */
+
+@media (max-width: 480px){
+
+    /* General */
+    .container{
+        width:94%;
+    }
+
+    section{
+        padding:45px 0;
+    }
+
+    /* Navigation */
+    header{
+        padding:12px 0;
+    }
+
+    .logo{
+        font-size:1.25rem;
+    }
+
+    .nav-links{
+        gap:8px 14px;
+    }
+
+    .nav-links a{
+        font-size:13px;
+    }
+
+    /* Hero */
+    .hero{
+        min-height:75vh;
+        padding:65px 0;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .hero p{
+        font-size:.95rem;
+    }
+
+    .hero .btn{
+        width:auto;
+        padding:10px 18px;
+    }
+
+    /* Section titles */
+    .section-title h2{
+        font-size:1.6rem;
+    }
+
+    .section-title{
+        margin-bottom:30px;
+    }
+
+    /* Profile */
+    .lawyer-profile{
+        padding:40px 0;
+    }
+
+    .profile-image{
+        max-width:250px;
+    }
+
+    .profile-image img{
+        max-width:250px;
+    }
+
+    .profile-content h1{
+        font-size:1.8rem;
+    }
+
+    .designation{
+        font-size:.95rem;
+    }
+
+    .profile-stats{
+        gap:15px;
+    }
+
+    .profile-stats > div{
+        min-width:75px;
+    }
+
+    .profile-stats h3{
+        font-size:1.5rem;
+    }
+
+    .profile-stats p{
+        font-size:12px;
+    }
+
+    .profile-buttons{
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+    .profile-buttons .btn,
+    .profile-buttons .btn-outline{
+        width:100%;
+        text-align:center;
+    }
+
+    /* Cards */
+    .card,
+    .testimonial-card,
+    .logo-box{
+        padding:20px;
+    }
+
+    .card h3{
+        font-size:1.1rem;
+    }
+
+    .card p,
+    .testimonial-card p{
+        font-size:14px;
+    }
+
+    /* Stats */
+    .stats-grid{
+        grid-template-columns:1fr 1fr;
+        gap:20px 10px;
+    }
+
+    .stat h3{
+        font-size:1.8rem;
+    }
+
+    .stat p{
+        font-size:12px;
+    }
+
+    /* Consultation */
+    .consultation-info{
+        padding:22px 18px;
+    }
+
+    .consultation-form{
+        padding:22px 16px;
+    }
+
+    .consultation-form input,
+    .consultation-form select,
+    .consultation-form textarea{
+        padding:12px;
+        font-size:14px;
+    }
+
+    /* Emergency */
+    .emergency{
+        padding:40px 15px;
+    }
+
+    .emergency h2{
+        font-size:1.5rem;
+    }
+
+    /* WhatsApp */
+    .whatsapp-btn{
+        right:12px;
+        bottom:12px;
+        padding:11px 14px;
+        font-size:13px;
+    }
+
+    /* Footer */
+    .footer{
+        padding:40px 0 15px;
+    }
+
+    .footer-grid{
+        gap:25px;
+    }
+
+    .footer-column h3{
+        font-size:1rem;
+    }
+
+    .footer-bottom{
+        font-size:12px;
+    }
+}
+
+
+/* =========================================
+   VERY SMALL PHONES
+   ========================================= */
+
+@media (max-width: 360px){
+
+    .container{
+        width:94%;
+    }
+
+    .nav-links{
+        gap:6px 10px;
+    }
+
+    .nav-links a{
+        font-size:12px;
+    }
+
+    .hero h1{
+        font-size:1.75rem;
+    }
+
+    .hero p{
+        font-size:.9rem;
+    }
+
+    .section-title h2{
+        font-size:1.45rem;
+    }
+
+    .profile-content h1{
+        font-size:1.65rem;
+    }
+
+    .profile-stats{
+        gap:10px;
+    }
+
+    .profile-stats > div{
+        min-width:65px;
+    }
+
+    .profile-stats h3{
+        font-size:1.35rem;
+    }
+
+    .stat h3{
+        font-size:1.6rem;
+    }
+
+    .whatsapp-btn{
+        padding:10px 12px;
+        font-size:12px;
+    }
+}
+
+
+/* =========================================
+   TOUCH DEVICE OPTIMIZATION
+   ========================================= */
+
+@media (hover:none) and (pointer:coarse){
+
+    .btn:hover{
+        transform:none;
+        box-shadow:none;
+    }
+
+    .card:hover,
+    .testimonial-card:hover{
+        transform:none;
+    }
+
+    .profile-image img:hover{
+        transform:none;
+    }
+
+    .nav-links a:hover::after{
+        width:0;
+    }
+
+    .footer-column a:hover{
+        color:white;
+    }
+
+    .btn,
+    .btn-outline,
+    button,
+    .nav-links a{
+        -webkit-tap-highlight-color:transparent;
+    }
+}
+
+
+/* =========================================
+   LANDSCAPE MOBILE
+   ========================================= */
+
+@media (max-width:768px) and (orientation:landscape){
+
+    .hero{
+        min-height:100vh;
+        padding:50px 0;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .hero p{
+        margin-bottom:15px;
+    }
+
+    .profile-container{
+        grid-template-columns:280px 1fr;
+        text-align:left;
+        gap:30px;
+    }
+
+    .profile-image{
+        margin:auto;
+    }
+
+    .profile-buttons{
+        justify-content:flex-start;
+    }
+}
